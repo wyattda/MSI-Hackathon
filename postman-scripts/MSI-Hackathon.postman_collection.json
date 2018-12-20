@@ -1,0 +1,176 @@
+{
+	"info": {
+		"_postman_id": "5803a81b-ff59-4e54-bee5-870f84718679",
+		"name": "MSI-Hackathon",
+		"description": "- Postman collection particularly for MSI Hackathon.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Incidents",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "af6b51b3-15f4-4029-a399-4a930e2feb1f",
+						"exec": [
+							"const access_token = 'put-token-here';",
+							"pm.environment.set(\"access_token\", access_token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{access_token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.master.commandcentral.com/api/cr/v1/incidents?",
+					"protocol": "https",
+					"host": [
+						"api",
+						"master",
+						"commandcentral",
+						"com"
+					],
+					"path": [
+						"api",
+						"cr",
+						"v1",
+						"incidents"
+					],
+					"query": [
+						{
+							"key": "pageDirection",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "pageKey",
+							"value": "5523efc9-4543-44fc-881e-0395a15f6316",
+							"disabled": true
+						},
+						{
+							"key": "fromDate",
+							"value": "2018-01-03T08:58:38.000Z",
+							"disabled": true
+						},
+						{
+							"key": "toDate",
+							"value": "2018-04-05T08:58:38.000Z",
+							"disabled": true
+						},
+						{
+							"key": "postalCode",
+							"value": "84444",
+							"disabled": true
+						}
+					]
+				},
+				"description": "- Request provides you all incidents from Crime Reports API REST Service.\n- You need to use Bearer Token to get these details"
+			},
+			"response": []
+		},
+		{
+			"name": "Agencies",
+			"event": [
+				{
+					"listen": "prerequest",
+					"script": {
+						"id": "0bf36c75-f0cd-4bc0-8430-130b27e26eda",
+						"exec": [
+							"const access_token = 'put-token-here';",
+							"pm.environment.set(\"access_token\", access_token);"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{access_token}}"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "https://api.master.commandcentral.com/api/cr/v1/agencies?id=108041",
+					"protocol": "https",
+					"host": [
+						"api",
+						"master",
+						"commandcentral",
+						"com"
+					],
+					"path": [
+						"api",
+						"cr",
+						"v1",
+						"agencies"
+					],
+					"query": [
+						{
+							"key": "id",
+							"value": "108041"
+						},
+						{
+							"key": "fromDate",
+							"value": "2010-12-01T01%3A15%3A30.000Z",
+							"disabled": true
+						},
+						{
+							"key": "toDate",
+							"value": "2017-12-01T01%3A16%3A30.000Z",
+							"disabled": true
+						},
+						{
+							"key": "pageDirection",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "pageKey",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "zip",
+							"value": "84121",
+							"disabled": true
+						},
+						{
+							"key": "fields",
+							"value": "id,state,city",
+							"disabled": true
+						}
+					]
+				},
+				"description": "- Request provides you the agency details from Crime Reports API REST Service.\n- You need to use Bearer Token to get these details"
+			},
+			"response": []
+		}
+	]
+}
