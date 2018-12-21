@@ -12,7 +12,7 @@
 				"script": {
 					"id": "af6b51b3-15f4-4029-a399-4a930e2feb1f",
 					"exec": [
-						"const access_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6InNpZ25pbmdrZXkiLCJ4NXQiOiJzWWsya0g1d0h4NnhJRVdCYldUN0JRVTBmLUEifQ.eyJzY29wZSI6WyJDUkJ1bGtBUEkiLCJDUk5vdGlmeSJdLCJjbGllbnRfaWQiOiJDcmltZVJlcG9ydHNEZXZUZXN0IiwiaXNzIjoiaHR0cHM6Ly9pZG1tYXN0ZXIuaW13Lm1vdG9yb2xhc29sdXRpb25zLmNvbTo0NDMiLCJleHAiOjE1NDUzNjE2Mjh9.giIG9Puj1nkWstCsnl30T_ZXONfdm0A8-LjLIIVvA3uj1NCLwiMsZrDDLLpNGDam10hU_vM1ute8virIXfC4YJGKDrcciRhIns38qNoSZWxP3Za3MJY2Ul8ZIzBbabye2y9qLg73VRd-TZXtGPqoFywzOSkNCWoEpBF9OhVisyY0Pqr5QaLsByF0yAHh33KIJpRLywX4cgdEnoPRZh6XAT3vnt1nQuXeJuxBArRXxwBx4YsGlFrJJTMYhffq0amC_0tlbcrAo1Y_6G_Hzby0XlwD52nULDqpUjEIwg_mzhpe3BZM3i9HLp_Cb7dTTap4Z-HuFzhYkBzoEtc9667nlw';",
+						"const access_token = 'put-your-token-here';",
 						"pm.environment.set(\"access_token\", access_token);"
 					],
 					"type": "text/javascript"
@@ -170,7 +170,7 @@
 					"script": {
 						"id": "1f905b77-2f46-4cc4-b925-97786f0aa422",
 						"exec": [
-							"const access_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6InNpZ25pbmdrZXkiLCJ4NXQiOiJzWWsya0g1d0h4NnhJRVdCYldUN0JRVTBmLUEifQ.eyJzY29wZSI6WyJDUkJ1bGtBUEkiLCJDUk5vdGlmeSJdLCJjbGllbnRfaWQiOiJDcmltZVJlcG9ydHNEZXZUZXN0IiwiaXNzIjoiaHR0cHM6Ly9pZG1tYXN0ZXIuaW13Lm1vdG9yb2xhc29sdXRpb25zLmNvbTo0NDMiLCJleHAiOjE1NDUzNjE2Mjh9.giIG9Puj1nkWstCsnl30T_ZXONfdm0A8-LjLIIVvA3uj1NCLwiMsZrDDLLpNGDam10hU_vM1ute8virIXfC4YJGKDrcciRhIns38qNoSZWxP3Za3MJY2Ul8ZIzBbabye2y9qLg73VRd-TZXtGPqoFywzOSkNCWoEpBF9OhVisyY0Pqr5QaLsByF0yAHh33KIJpRLywX4cgdEnoPRZh6XAT3vnt1nQuXeJuxBArRXxwBx4YsGlFrJJTMYhffq0amC_0tlbcrAo1Y_6G_Hzby0XlwD52nULDqpUjEIwg_mzhpe3BZM3i9HLp_Cb7dTTap4Z-HuFzhYkBzoEtc9667nlw';",
+							"const access_token = 'put-your-token-here';",
 							"pm.environment.set(\"access_token\", access_token);"
 						],
 						"type": "text/javascript"
