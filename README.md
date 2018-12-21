@@ -20,3 +20,6 @@ NOTE: Postman script will only work within MSI Network. For offline work, please
 - Sample data are provided for 3 agencies in `JSON` format. Each JSON file contains around `2000` or less `incidents/crimes` with public details.
 - Please use these data for your solution.
 
+# Example Application
+
+See [the CR-SAMPLE folder](CR-SAMPLE/README.md) for a simple example of using the API in a browser/webapp context.

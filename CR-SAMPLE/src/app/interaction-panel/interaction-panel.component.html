@@ -1,0 +1,44 @@
+Provide an Access Token here: <input type="text" [(ngModel)]="accessToken">
+<div *ngIf="tokenIsValid().status">
+    Token is valid
+    <div *ngIf="!agenciesLoading && !agenciesLoaded">
+        <button (click)=loadAgencies()>Load Agencies</button>
+    </div>
+    <div *ngIf="agenciesLoading">
+        <div class="loader">Loading agencies...</div>
+    </div>
+    <div *ngIf="agenciesLoaded">
+        <select (change)="agencyChange($event.target.value)">
+            <option *ngFor="let agency of (agencies)" value={{agency.id}}>
+              {{agency.name}}
+            </option>
+        </select>
+        <div>
+            <div>Selected agency: </div> 
+            <div>{{currentAgency | json}}</div>
+        </div>
+    </div>
+    <div *ngIf="currentAgency">
+        <div *ngIf="!incidentsLoading && !incidentsLoaded">
+            <button (click)=loadIncidents()>Load Incidents</button>
+        </div>
+        <div *ngIf="agenciesLoading">
+            <div class="loader">Loading incidents...</div>
+        </div>
+        <div *ngIf="incidentsLoaded">
+            <select (change)="incidentChange($event.target.value)">
+                <option *ngFor="let incident of (incidents)" value={{incident.id}}>
+                  {{incident.id}}
+                </option>
+            </select>
+            <div>
+                <div>Selected incident: </div> 
+                <div>{{currentIncident | json}}</div>
+            </div>
+        </div>
+    </div>
+</div>
+<div *ngIf="!(tokenIsValid().status)">
+Token is NOT valid: {{tokenIsValid().message}}
+</div>
+
