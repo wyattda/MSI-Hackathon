@@ -5,26 +5,22 @@
 		"description": "- Postman collection particularly for MSI Hackathon.",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
 	},
-	"item": [
-		{
+	"item": [{
 			"name": "Incidents",
-			"event": [
-				{
-					"listen": "prerequest",
-					"script": {
-						"id": "af6b51b3-15f4-4029-a399-4a930e2feb1f",
-						"exec": [
-							"const access_token = 'put-token-here';",
-							"pm.environment.set(\"access_token\", access_token);"
-						],
-						"type": "text/javascript"
-					}
+			"event": [{
+				"listen": "prerequest",
+				"script": {
+					"id": "af6b51b3-15f4-4029-a399-4a930e2feb1f",
+					"exec": [
+						"const access_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6InNpZ25pbmdrZXkiLCJ4NXQiOiJzWWsya0g1d0h4NnhJRVdCYldUN0JRVTBmLUEifQ.eyJzY29wZSI6WyJDUkJ1bGtBUEkiLCJDUk5vdGlmeSJdLCJjbGllbnRfaWQiOiJDcmltZVJlcG9ydHNEZXZUZXN0IiwiaXNzIjoiaHR0cHM6Ly9pZG1tYXN0ZXIuaW13Lm1vdG9yb2xhc29sdXRpb25zLmNvbTo0NDMiLCJleHAiOjE1NDUzNjE2Mjh9.giIG9Puj1nkWstCsnl30T_ZXONfdm0A8-LjLIIVvA3uj1NCLwiMsZrDDLLpNGDam10hU_vM1ute8virIXfC4YJGKDrcciRhIns38qNoSZWxP3Za3MJY2Ul8ZIzBbabye2y9qLg73VRd-TZXtGPqoFywzOSkNCWoEpBF9OhVisyY0Pqr5QaLsByF0yAHh33KIJpRLywX4cgdEnoPRZh6XAT3vnt1nQuXeJuxBArRXxwBx4YsGlFrJJTMYhffq0amC_0tlbcrAo1Y_6G_Hzby0XlwD52nULDqpUjEIwg_mzhpe3BZM3i9HLp_Cb7dTTap4Z-HuFzhYkBzoEtc9667nlw';",
+						"pm.environment.set(\"access_token\", access_token);"
+					],
+					"type": "text/javascript"
 				}
-			],
+			}],
 			"request": {
 				"method": "PUT",
-				"header": [
-					{
+				"header": [{
 						"key": "Content-Type",
 						"value": "application/json"
 					},
@@ -53,8 +49,7 @@
 						"v1",
 						"incidents"
 					],
-					"query": [
-						{
+					"query": [{
 							"key": "pageDirection",
 							"value": "1",
 							"disabled": true
@@ -87,23 +82,20 @@
 		},
 		{
 			"name": "Agencies",
-			"event": [
-				{
-					"listen": "prerequest",
-					"script": {
-						"id": "0bf36c75-f0cd-4bc0-8430-130b27e26eda",
-						"exec": [
-							"const access_token = 'put-token-here';",
-							"pm.environment.set(\"access_token\", access_token);"
-						],
-						"type": "text/javascript"
-					}
+			"event": [{
+				"listen": "prerequest",
+				"script": {
+					"id": "0bf36c75-f0cd-4bc0-8430-130b27e26eda",
+					"exec": [
+						"const access_token = 'put-token-here';",
+						"pm.environment.set(\"access_token\", access_token);"
+					],
+					"type": "text/javascript"
 				}
-			],
+			}],
 			"request": {
 				"method": "PUT",
-				"header": [
-					{
+				"header": [{
 						"key": "Content-Type",
 						"value": "application/json"
 					},
@@ -131,8 +123,7 @@
 						"v1",
 						"agencies"
 					],
-					"query": [
-						{
+					"query": [{
 							"key": "id",
 							"value": "108041"
 						},
@@ -169,6 +160,111 @@
 					]
 				},
 				"description": "- Request provides you the agency details from Crime Reports API REST Service.\n- You need to use Bearer Token to get these details"
+			},
+			"response": []
+		},
+		{
+			"name": "Incident on Polygon",
+			"event": [{
+					"listen": "prerequest",
+					"script": {
+						"id": "1f905b77-2f46-4cc4-b925-97786f0aa422",
+						"exec": [
+							"const access_token = 'eyJhbGciOiJSUzI1NiIsImtpZCI6InNpZ25pbmdrZXkiLCJ4NXQiOiJzWWsya0g1d0h4NnhJRVdCYldUN0JRVTBmLUEifQ.eyJzY29wZSI6WyJDUkJ1bGtBUEkiLCJDUk5vdGlmeSJdLCJjbGllbnRfaWQiOiJDcmltZVJlcG9ydHNEZXZUZXN0IiwiaXNzIjoiaHR0cHM6Ly9pZG1tYXN0ZXIuaW13Lm1vdG9yb2xhc29sdXRpb25zLmNvbTo0NDMiLCJleHAiOjE1NDUzNjE2Mjh9.giIG9Puj1nkWstCsnl30T_ZXONfdm0A8-LjLIIVvA3uj1NCLwiMsZrDDLLpNGDam10hU_vM1ute8virIXfC4YJGKDrcciRhIns38qNoSZWxP3Za3MJY2Ul8ZIzBbabye2y9qLg73VRd-TZXtGPqoFywzOSkNCWoEpBF9OhVisyY0Pqr5QaLsByF0yAHh33KIJpRLywX4cgdEnoPRZh6XAT3vnt1nQuXeJuxBArRXxwBx4YsGlFrJJTMYhffq0amC_0tlbcrAo1Y_6G_Hzby0XlwD52nULDqpUjEIwg_mzhpe3BZM3i9HLp_Cb7dTTap4Z-HuFzhYkBzoEtc9667nlw';",
+							"pm.environment.set(\"access_token\", access_token);"
+						],
+						"type": "text/javascript"
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"id": "0418fcb2-1e2d-43c4-8812-9ed049d1deb9",
+						"exec": [
+							"// Print results.",
+							"console.log(`CRAPI-${pm.environment.get('env')}`);",
+							"const responseData = JSON.parse(pm.response.stream.toString('utf8'));",
+							"// Print PageKey for paging.",
+							"console.log(`PageKey: ${responseData.pageKey}`);",
+							"",
+							"// Print Record count.",
+							"console.log(`Result Length: ${responseData.results.length}`);",
+							"",
+							"// Print last record",
+							"console.log(responseData.results[responseData.results.length-1]);",
+							"",
+							"pm.environment.set('pageKey', responseData.pageKey ? responseData.pageKey : 0);",
+							"for (let i = 0; i < responseData.results.length; i++){",
+							"    if( responseData.results[i].ccn === '180001856'){",
+							"        console.log('got it');",
+							"        console.log(responseData.results[i]);",
+							"    }",
+							"}"
+						],
+						"type": "text/javascript"
+					}
+				}
+			],
+			"request": {
+				"method": "PUT",
+				"header": [{
+						"key": "Content-Type",
+						"value": "application/json"
+					},
+					{
+						"key": "Authorization",
+						"value": "Bearer {{access_token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"polygon\":[\n            [\n              -83.88185977935791,\n              33.565535624190424\n            ],\n            [\n              -83.84409427642822,\n              33.565535624190424\n            ],\n            [\n              -83.84409427642822,\n              33.59685515887812\n            ],\n            [\n              -83.88185977935791,\n              33.59685515887812\n            ],\n            [\n              -83.88185977935791,\n              33.565535624190424\n            ]\n          ]\n}\n"
+				},
+				"url": {
+					"raw": "https://api.master.commandcentral.com/api/cr/v1/incidents?fromDate=2000-09-14T01:22:05.000Z&toDate=2100-09-15T01:22:05.000Z&agencyId=11809",
+					"protocol": "https",
+					"host": [
+						"api",
+						"master",
+						"commandcentral",
+						"com"
+					],
+					"path": [
+						"api",
+						"cr",
+						"v1",
+						"incidents"
+					],
+					"query": [{
+							"key": "fromDate",
+							"value": "2000-09-14T01:22:05.000Z"
+						},
+						{
+							"key": "toDate",
+							"value": "2100-09-15T01:22:05.000Z"
+						},
+						{
+							"key": "pageDirection",
+							"value": "1",
+							"disabled": true
+						},
+						{
+							"key": "pageKey",
+							"value": "0",
+							"disabled": true
+						},
+						{
+							"key": "ccn",
+							"value": "dgtest4",
+							"disabled": true
+						},
+						{
+							"key": "agencyId",
+							"value": "11809"
+						}
+					]
+				}
 			},
 			"response": []
 		}
