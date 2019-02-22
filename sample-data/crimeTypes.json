@@ -1,7 +1,7 @@
 [{
     "id": 9,
     "name": "Assault ",
-    "org_id": 1,
+
     "details": {
       "gradient_top": 16499968,
       "gradient_bottom": 12532229,
@@ -12,7 +12,7 @@
     "children": [{
         "id": 149,
         "name": "Assault",
-        "org_id": 1,
+
         "details": {
           "gradient_top": 16499968,
           "gradient_bottom": 12532229,
@@ -25,7 +25,7 @@
       {
         "id": 150,
         "name": "Assault with Deadly Weapon",
-        "org_id": 1,
+
         "details": {
           "gradient_top": 16499968,
           "gradient_bottom": 12532229,
@@ -40,7 +40,7 @@
   {
     "id": 100,
     "name": "Breaking & Entering",
-    "org_id": 1,
+
     "details": {
       "gradient_top": 2255013,
       "gradient_bottom": 133909,
@@ -53,7 +53,7 @@
   {
     "id": 16,
     "name": "Emergency",
-    "org_id": 1,
+
     "details": {
       "gradient_top": 15066855,
       "gradient_bottom": 12369600,
@@ -66,7 +66,7 @@
   {
     "id": 15,
     "name": "Fire",
-    "org_id": 1,
+
     "details": {
       "gradient_top": 15480625,
       "gradient_bottom": 10559008,
@@ -79,7 +79,7 @@
   {
     "id": 104,
     "name": "Homicide",
-    "org_id": 1,
+
     "details": {
       "gradient_top": 15400972,
       "gradient_bottom": 9895940,
@@ -92,7 +92,7 @@
   {
     "id": 11,
     "name": "Other ",
-    "org_id": 1,
+
     "details": {
       "gradient_top": 14806511,
       "gradient_bottom": 6317680,
@@ -103,7 +103,7 @@
     "children": [{
         "id": 160,
         "name": "Alarm",
-        "org_id": 1,
+
         "details": {
           "gradient_top": 14806511,
           "gradient_bottom": 6317680,
@@ -116,7 +116,7 @@
       {
         "id": 121,
         "name": "Arson",
-        "org_id": 1,
+
         "details": {
           "gradient_top": 14806511,
           "gradient_bottom": 6317680,
@@ -129,7 +129,7 @@
       {
         "id": 162,
         "name": "Death",
-        "org_id": 1,
+
         "details": {
           "gradient_top": 14806511,
           "gradient_bottom": 6317680,
@@ -142,7 +142,7 @@
       {
         "id": 164,
         "name": "Family Offense",
-        "org_id": 1,
+
         "details": {
           "gradient_top": 14806511,
           "gradient_bottom": 6317680,
@@ -155,7 +155,7 @@
       {
         "id": 165,
         "name": "Kidnapping",
-        "org_id": 1,
+
         "details": {
           "gradient_top": 14806511,
           "gradient_bottom": 6317680,
@@ -168,7 +168,7 @@
       {
         "id": 167,
         "name": "Missing Person",
-        "org_id": 1,
+
         "details": {
           "gradient_top": 14806511,
           "gradient_bottom": 6317680,
@@ -181,7 +181,7 @@
       {
         "id": 151,
         "name": "Other",
-        "org_id": 1,
+
         "details": {
           "gradient_top": 14806511,
           "gradient_bottom": 6317680,
@@ -194,7 +194,7 @@
       {
         "id": 171,
         "name": "Weapons Offense",
-        "org_id": 1,
+
         "details": {
           "gradient_top": 14806511,
           "gradient_bottom": 6317680,
@@ -209,7 +209,7 @@
   {
     "id": 14,
     "name": "Proactive Policing",
-    "org_id": 1,
+
     "details": {
       "gradient_top": 13753545,
       "gradient_bottom": 263172,
@@ -220,7 +220,7 @@
     "children": [{
         "id": 161,
         "name": "Community Policing",
-        "org_id": 1,
+
         "details": {
           "gradient_top": 13753545,
           "gradient_bottom": 263172,
@@ -233,7 +233,7 @@
       {
         "id": 173,
         "name": "Pedestrian Stop",
-        "org_id": 1,
+
         "details": {
           "gradient_top": 13753545,
           "gradient_bottom": 263172,
@@ -246,7 +246,7 @@
       {
         "id": 172,
         "name": "Vehicle Stop",
-        "org_id": 1,
+
         "details": {
           "gradient_top": 13753545,
           "gradient_bottom": 263172,
@@ -261,7 +261,7 @@
   {
     "id": 10,
     "name": "Property Crime ",
-    "org_id": 1,
+
     "details": {
       "gradient_top": 10065868,
       "gradient_bottom": 6488218,
@@ -272,7 +272,7 @@
     "children": [{
         "id": 180,
         "name": "Property Crime",
-        "org_id": 1,
+
         "details": {
           "gradient_top": 10065868,
           "gradient_bottom": 6488218,
@@ -285,7 +285,7 @@
       {
         "id": 179,
         "name": "Property Crime Commercial",
-        "org_id": 1,
+
         "details": {
           "gradient_top": 10065868,
           "gradient_bottom": 6488218,
@@ -298,7 +298,7 @@
       {
         "id": 178,
         "name": "Property Crime Residential",
-        "org_id": 1,
+
         "details": {
           "gradient_top": 10065868,
           "gradient_bottom": 6488218,
@@ -313,7 +313,7 @@
   {
     "id": 12,
     "name": "Quality of Life",
-    "org_id": 1,
+
     "details": {
       "gradient_top": 9500416,
       "gradient_bottom": 2394624,
@@ -324,7 +324,7 @@
     "children": [{
         "id": 163,
         "name": "Disorder",
-        "org_id": 1,
+
         "details": {
           "gradient_top": 9500416,
           "gradient_bottom": 2394624,
@@ -337,7 +337,7 @@
       {
         "id": 168,
         "name": "Drugs",
-        "org_id": 1,
+
         "details": {
           "gradient_top": 9500416,
           "gradient_bottom": 2394624,
@@ -350,7 +350,7 @@
       {
         "id": 166,
         "name": "Liquor",
-        "org_id": 1,
+
         "details": {
           "gradient_top": 9500416,
           "gradient_bottom": 2394624,
@@ -365,7 +365,7 @@
   {
     "id": 98,
     "name": "Robbery",
-    "org_id": 1,
+
     "details": {
       "gradient_top": 16427880,
       "gradient_bottom": 133909,
@@ -378,7 +378,7 @@
   {
     "id": 8,
     "name": "Sexual Offense",
-    "org_id": 1,
+
     "details": {
       "gradient_top": 16764704,
       "gradient_bottom": 5048832,
@@ -389,7 +389,7 @@
     "children": [{
         "id": 97,
         "name": "Other Sexual Offense",
-        "org_id": 1,
+
         "details": {
           "gradient_top": 16764704,
           "gradient_bottom": 5048832,
@@ -402,7 +402,7 @@
       {
         "id": 148,
         "name": "Sexual Assault",
-        "org_id": 1,
+
         "details": {
           "gradient_top": 16764704,
           "gradient_bottom": 5048832,
@@ -417,7 +417,7 @@
   {
     "id": 103,
     "name": "Theft",
-    "org_id": 1,
+
     "details": {
       "gradient_top": 7969533,
       "gradient_bottom": 1586613,
@@ -430,7 +430,7 @@
   {
     "id": 101,
     "name": "Theft from Vehicle",
-    "org_id": 1,
+
     "details": {
       "gradient_top": 5823422,
       "gradient_bottom": 1983074,
@@ -443,7 +443,7 @@
   {
     "id": 99,
     "name": "Theft of Vehicle",
-    "org_id": 1,
+
     "details": {
       "gradient_top": 3989662,
       "gradient_bottom": 1136400,
@@ -456,7 +456,7 @@
   {
     "id": 169,
     "name": "Traffic",
-    "org_id": 1,
+
     "details": {
       "gradient_top": 4774895,
       "gradient_bottom": 2659002,
@@ -469,7 +469,7 @@
   {
     "id": 170,
     "name": "Vehicle Recovery",
-    "org_id": 1,
+
     "details": {
       "gradient_top": 5563994,
       "gradient_bottom": 2058753,
