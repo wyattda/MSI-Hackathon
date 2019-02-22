@@ -1,0 +1,482 @@
+[{
+    "id": 9,
+    "name": "Assault ",
+    "org_id": 1,
+    "details": {
+      "gradient_top": 16499968,
+      "gradient_bottom": 12532229,
+      "mini_icon_name": "mini_map_assault.png",
+      "icon_name": "map_assault.gif",
+      "default_selected": true
+    },
+    "children": [{
+        "id": 149,
+        "name": "Assault",
+        "org_id": 1,
+        "details": {
+          "gradient_top": 16499968,
+          "gradient_bottom": 12532229,
+          "mini_icon_name": "mini_map_assault.png",
+          "icon_name": "map_assault.gif",
+          "default_selected": true
+        },
+        "children": null
+      },
+      {
+        "id": 150,
+        "name": "Assault with Deadly Weapon",
+        "org_id": 1,
+        "details": {
+          "gradient_top": 16499968,
+          "gradient_bottom": 12532229,
+          "mini_icon_name": "mini_map_assault.png",
+          "icon_name": "map_assault.gif",
+          "default_selected": true
+        },
+        "children": null
+      }
+    ]
+  },
+  {
+    "id": 100,
+    "name": "Breaking & Entering",
+    "org_id": 1,
+    "details": {
+      "gradient_top": 2255013,
+      "gradient_bottom": 133909,
+      "mini_icon_name": "mini_map_burglary.png",
+      "icon_name": "map_burglary.gif",
+      "default_selected": true
+    },
+    "children": null
+  },
+  {
+    "id": 16,
+    "name": "Emergency",
+    "org_id": 1,
+    "details": {
+      "gradient_top": 15066855,
+      "gradient_bottom": 12369600,
+      "mini_icon_name": "mini_map_emergency.png",
+      "icon_name": "map_emergency.gif",
+      "default_selected": false
+    },
+    "children": null
+  },
+  {
+    "id": 15,
+    "name": "Fire",
+    "org_id": 1,
+    "details": {
+      "gradient_top": 15480625,
+      "gradient_bottom": 10559008,
+      "mini_icon_name": "mini_map_fire.png",
+      "icon_name": "map_fire.png",
+      "default_selected": false
+    },
+    "children": null
+  },
+  {
+    "id": 104,
+    "name": "Homicide",
+    "org_id": 1,
+    "details": {
+      "gradient_top": 15400972,
+      "gradient_bottom": 9895940,
+      "mini_icon_name": "mini_map_homicide.png",
+      "icon_name": "map_homicide.gif",
+      "default_selected": true
+    },
+    "children": null
+  },
+  {
+    "id": 11,
+    "name": "Other ",
+    "org_id": 1,
+    "details": {
+      "gradient_top": 14806511,
+      "gradient_bottom": 6317680,
+      "mini_icon_name": "mini_map_other.png",
+      "icon_name": "map_other.gif",
+      "default_selected": false
+    },
+    "children": [{
+        "id": 160,
+        "name": "Alarm",
+        "org_id": 1,
+        "details": {
+          "gradient_top": 14806511,
+          "gradient_bottom": 6317680,
+          "mini_icon_name": "mini_map_other.png",
+          "icon_name": "map_other.gif",
+          "default_selected": false
+        },
+        "children": null
+      },
+      {
+        "id": 121,
+        "name": "Arson",
+        "org_id": 1,
+        "details": {
+          "gradient_top": 14806511,
+          "gradient_bottom": 6317680,
+          "mini_icon_name": "mini_map_other.png",
+          "icon_name": "map_other.gif",
+          "default_selected": false
+        },
+        "children": null
+      },
+      {
+        "id": 162,
+        "name": "Death",
+        "org_id": 1,
+        "details": {
+          "gradient_top": 14806511,
+          "gradient_bottom": 6317680,
+          "mini_icon_name": "mini_map_other.png",
+          "icon_name": "map_other.gif",
+          "default_selected": false
+        },
+        "children": null
+      },
+      {
+        "id": 164,
+        "name": "Family Offense",
+        "org_id": 1,
+        "details": {
+          "gradient_top": 14806511,
+          "gradient_bottom": 6317680,
+          "mini_icon_name": "mini_map_other.png",
+          "icon_name": "map_other.gif",
+          "default_selected": false
+        },
+        "children": null
+      },
+      {
+        "id": 165,
+        "name": "Kidnapping",
+        "org_id": 1,
+        "details": {
+          "gradient_top": 14806511,
+          "gradient_bottom": 6317680,
+          "mini_icon_name": "mini_map_other.png",
+          "icon_name": "map_other.gif",
+          "default_selected": false
+        },
+        "children": null
+      },
+      {
+        "id": 167,
+        "name": "Missing Person",
+        "org_id": 1,
+        "details": {
+          "gradient_top": 14806511,
+          "gradient_bottom": 6317680,
+          "mini_icon_name": "mini_map_other.png",
+          "icon_name": "map_other.gif",
+          "default_selected": false
+        },
+        "children": null
+      },
+      {
+        "id": 151,
+        "name": "Other",
+        "org_id": 1,
+        "details": {
+          "gradient_top": 14806511,
+          "gradient_bottom": 6317680,
+          "mini_icon_name": "mini_map_other.png",
+          "icon_name": "map_other.gif",
+          "default_selected": false
+        },
+        "children": null
+      },
+      {
+        "id": 171,
+        "name": "Weapons Offense",
+        "org_id": 1,
+        "details": {
+          "gradient_top": 14806511,
+          "gradient_bottom": 6317680,
+          "mini_icon_name": "mini_map_other.png",
+          "icon_name": "map_other.gif",
+          "default_selected": false
+        },
+        "children": null
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Proactive Policing",
+    "org_id": 1,
+    "details": {
+      "gradient_top": 13753545,
+      "gradient_bottom": 263172,
+      "mini_icon_name": "mini_map_proactive_policing.png",
+      "icon_name": "map_proactive_policing.gif",
+      "default_selected": false
+    },
+    "children": [{
+        "id": 161,
+        "name": "Community Policing",
+        "org_id": 1,
+        "details": {
+          "gradient_top": 13753545,
+          "gradient_bottom": 263172,
+          "mini_icon_name": "mini_map_proactive_policing.png",
+          "icon_name": "map_proactive_policing.gif",
+          "default_selected": false
+        },
+        "children": null
+      },
+      {
+        "id": 173,
+        "name": "Pedestrian Stop",
+        "org_id": 1,
+        "details": {
+          "gradient_top": 13753545,
+          "gradient_bottom": 263172,
+          "mini_icon_name": "mini_map_proactive_policing.png",
+          "icon_name": "map_proactive_policing.gif",
+          "default_selected": false
+        },
+        "children": null
+      },
+      {
+        "id": 172,
+        "name": "Vehicle Stop",
+        "org_id": 1,
+        "details": {
+          "gradient_top": 13753545,
+          "gradient_bottom": 263172,
+          "mini_icon_name": "mini_map_proactive_policing.png",
+          "icon_name": "map_proactive_policing.gif",
+          "default_selected": false
+        },
+        "children": null
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Property Crime ",
+    "org_id": 1,
+    "details": {
+      "gradient_top": 10065868,
+      "gradient_bottom": 6488218,
+      "mini_icon_name": "mini_map_property.png",
+      "icon_name": "map_property.gif",
+      "default_selected": false
+    },
+    "children": [{
+        "id": 180,
+        "name": "Property Crime",
+        "org_id": 1,
+        "details": {
+          "gradient_top": 10065868,
+          "gradient_bottom": 6488218,
+          "mini_icon_name": "mini_map_property.png",
+          "icon_name": "map_property.gif",
+          "default_selected": false
+        },
+        "children": null
+      },
+      {
+        "id": 179,
+        "name": "Property Crime Commercial",
+        "org_id": 1,
+        "details": {
+          "gradient_top": 10065868,
+          "gradient_bottom": 6488218,
+          "mini_icon_name": "mini_map_property.png",
+          "icon_name": "map_property.gif",
+          "default_selected": false
+        },
+        "children": null
+      },
+      {
+        "id": 178,
+        "name": "Property Crime Residential",
+        "org_id": 1,
+        "details": {
+          "gradient_top": 10065868,
+          "gradient_bottom": 6488218,
+          "mini_icon_name": "mini_map_property.png",
+          "icon_name": "map_property.gif",
+          "default_selected": false
+        },
+        "children": null
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Quality of Life",
+    "org_id": 1,
+    "details": {
+      "gradient_top": 9500416,
+      "gradient_bottom": 2394624,
+      "mini_icon_name": "mini_map_quality_of_life.png",
+      "icon_name": "map_quality_of_life.gif",
+      "default_selected": false
+    },
+    "children": [{
+        "id": 163,
+        "name": "Disorder",
+        "org_id": 1,
+        "details": {
+          "gradient_top": 9500416,
+          "gradient_bottom": 2394624,
+          "mini_icon_name": "mini_map_quality_of_life.png",
+          "icon_name": "map_quality_of_life.gif",
+          "default_selected": false
+        },
+        "children": null
+      },
+      {
+        "id": 168,
+        "name": "Drugs",
+        "org_id": 1,
+        "details": {
+          "gradient_top": 9500416,
+          "gradient_bottom": 2394624,
+          "mini_icon_name": "mini_map_quality_of_life.png",
+          "icon_name": "map_quality_of_life.gif",
+          "default_selected": false
+        },
+        "children": null
+      },
+      {
+        "id": 166,
+        "name": "Liquor",
+        "org_id": 1,
+        "details": {
+          "gradient_top": 9500416,
+          "gradient_bottom": 2394624,
+          "mini_icon_name": "mini_map_quality_of_life.png",
+          "icon_name": "map_quality_of_life.gif",
+          "default_selected": false
+        },
+        "children": null
+      }
+    ]
+  },
+  {
+    "id": 98,
+    "name": "Robbery",
+    "org_id": 1,
+    "details": {
+      "gradient_top": 16427880,
+      "gradient_bottom": 133909,
+      "mini_icon_name": "mini_map_robbery.png",
+      "icon_name": "map_robbery.gif",
+      "default_selected": true
+    },
+    "children": null
+  },
+  {
+    "id": 8,
+    "name": "Sexual Offense",
+    "org_id": 1,
+    "details": {
+      "gradient_top": 16764704,
+      "gradient_bottom": 5048832,
+      "mini_icon_name": "mini_map_sexual_offense.png",
+      "icon_name": "map_sexual_offense.gif",
+      "default_selected": true
+    },
+    "children": [{
+        "id": 97,
+        "name": "Other Sexual Offense",
+        "org_id": 1,
+        "details": {
+          "gradient_top": 16764704,
+          "gradient_bottom": 5048832,
+          "mini_icon_name": "mini_map_sexual_offense.png",
+          "icon_name": "map_sexual_offense.gif",
+          "default_selected": true
+        },
+        "children": null
+      },
+      {
+        "id": 148,
+        "name": "Sexual Assault",
+        "org_id": 1,
+        "details": {
+          "gradient_top": 16764704,
+          "gradient_bottom": 5048832,
+          "mini_icon_name": "mini_map_sexual_offense.png",
+          "icon_name": "map_sexual_offense.gif",
+          "default_selected": true
+        },
+        "children": null
+      }
+    ]
+  },
+  {
+    "id": 103,
+    "name": "Theft",
+    "org_id": 1,
+    "details": {
+      "gradient_top": 7969533,
+      "gradient_bottom": 1586613,
+      "mini_icon_name": "mini_map_theft.png",
+      "icon_name": "map_theft.gif",
+      "default_selected": true
+    },
+    "children": null
+  },
+  {
+    "id": 101,
+    "name": "Theft from Vehicle",
+    "org_id": 1,
+    "details": {
+      "gradient_top": 5823422,
+      "gradient_bottom": 1983074,
+      "mini_icon_name": "mini_map_theft_from_vehicle.png",
+      "icon_name": "map_theft_from_vehicle.gif",
+      "default_selected": true
+    },
+    "children": null
+  },
+  {
+    "id": 99,
+    "name": "Theft of Vehicle",
+    "org_id": 1,
+    "details": {
+      "gradient_top": 3989662,
+      "gradient_bottom": 1136400,
+      "mini_icon_name": "mini_map_theft_of_vehicle.png",
+      "icon_name": "map_theft_of_vehicle.gif",
+      "default_selected": true
+    },
+    "children": null
+  },
+  {
+    "id": 169,
+    "name": "Traffic",
+    "org_id": 1,
+    "details": {
+      "gradient_top": 4774895,
+      "gradient_bottom": 2659002,
+      "mini_icon_name": "mini_map_traffic.png",
+      "icon_name": "map_traffic.gif",
+      "default_selected": false
+    },
+    "children": null
+  },
+  {
+    "id": 170,
+    "name": "Vehicle Recovery",
+    "org_id": 1,
+    "details": {
+      "gradient_top": 5563994,
+      "gradient_bottom": 2058753,
+      "mini_icon_name": "mini_map_vehicle_recovery.png",
+      "icon_name": "map_vehicle_recovery.gif",
+      "default_selected": true
+    },
+    "children": null
+  }
+]
