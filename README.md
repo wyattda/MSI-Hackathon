@@ -1,4 +1,4 @@
-# Copyright © 2018 Motorola Solutions, Inc. ALL RIGHTS RESERVED.
+# Copyright © 2019 Motorola Solutions, Inc. ALL RIGHTS RESERVED.
 # MSI Job Openings
 - We are hiring!!!! 
 - Directory contains PDF full of job ids and public link to against each of ids have job details..
@@ -9,12 +9,12 @@
 
 ```
 SSID: M-Guest
-Password: GalvinBros-1928!
+
 ```
 ## Step 2: Connecting to the CrimeReports API
 Authentication Bearer Token: 
 ```
-eyJhbGciOiJSUzI1NiIsImtpZCI6InNpZ25pbmdrZXkiLCJ4NXQiOiJzWWsya0g1d0h4NnhJRVdCYldUN0JRVTBmLUEifQ.eyJzY29wZSI6WyJDUkJ1bGtBUEkiLCJDUk5vdGlmeSJdLCJjbGllbnRfaWQiOiJDcmltZVJlcG9ydHNEZXZUZXN0IiwiaXNzIjoiaHR0cHM6Ly9pZG1tYXN0ZXIuaW13Lm1vdG9yb2xhc29sdXRpb25zLmNvbTo0NDMiLCJleHAiOjE1NTA4MDIwOTN9.DyECrREGCqTHFK4RpSZMgXOFXAb8jtFb8SKFQlsItpf9ri3XnoCuLOumTu4m8B-bzLZClJeNYdylbqW56ZNIRwpJysrzWsSvCr9nNQWJs3S9PpBgKJ0p8ZvBESzjrfkG8Nad63uYcYgDRTYlCyTjwUvSjAvstv8LjENThFTRFVxI9sX9wzVZQjjnil2tGpdg582cQCZqayU2J4qluATXg6eM9pnGKQUbDWsN6ed-dB8POsQurFc28PLTngXWXRF4yDFCDsWR0tI2WNBP_kM4el4uQc2BQnP6WWKClR5ANrE0iZf55WlfTpI5mr9MzHrzCjOKF2exd0mVIZRnsdysDw
+PROVIDED BY MSI
 ```
 
 ## CrimeReports API
